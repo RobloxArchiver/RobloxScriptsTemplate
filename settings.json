@@ -1,0 +1,15 @@
+{
+    "inputFile": "src/main.lua",
+    "outputFile": "bin/build.lua",
+    "keywordSingle": "IMPORT",
+    "keywordMulti": "IMPORT_MULTI",
+    "keywordDirectory": "IMPORT_DIR",
+    "keywordExportTimestamp": "EXPORT_TIMESTAMP",
+    "tabLength": 4,
+    "smartIndents": true,
+    "redundantImporting": false,
+    "minifyOutput": true,
+    "fileComments": true,
+    "packerWatermark": true,
+    "verboseLogs": true
+}

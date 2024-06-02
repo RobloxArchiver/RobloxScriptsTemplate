@@ -1,0 +1,14 @@
+{
+    "robloxLsp.diagnostics.globals": [
+        "IMPORT_MULTI",
+        "IMPORT_DIR",
+        "IMPORT",
+        "settings",
+        "player",
+        "globals",
+        "players",
+        "main_tab",
+        "hookfunction",
+        "restorefunction"
+    ]
+}
