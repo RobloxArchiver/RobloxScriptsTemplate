@@ -1,1 +1,0 @@
-bun "./scripts/packer.js"
