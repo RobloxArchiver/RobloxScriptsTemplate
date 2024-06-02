@@ -29,9 +29,9 @@ You can also go into the top bar and press `Terminal` and then `Run Build Task..
 
 Once you select the Build Task to use (Based on whether you use Node or Bun), press `CTRL + SHIFT + B` and you are done.
 
-# Packer Functions
+# Packer Macros
 
-> Notice: Packer functions are not actual functions and cannot be modified in any way.
+> Notice: Packer macros are not actual functions and cannot be modified in any way via Lua.
 
 ## `IMPORT(path: string)`
 
@@ -39,6 +39,7 @@ Import simply grabs the code and wraps it in a anonymous function call. It's ver
 
 ```lua
 IMPORT("src/Something/A.lua")
+
 local myModule = IMPORT("src/Library/Stuff.lua")
 
 myModule.DoSomething() --> Note you can make modules easily via following the normal format.
