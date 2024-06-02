@@ -19,9 +19,6 @@ if ( fs.existsSync( 'settings.json' ) ) {
         "keywordSingle": "IMPORT",
         "keywordMulti": "IMPORT_MULTI",
         "keywordDirectory": "IMPORT_DIR",
-
-        // Export Keywords
-        "keywordExportTimestamp": "EXPORT_TIMESTAMP",
         
         // indent stuff
         "tabLength": 4, // how many spaces each "tab" is
@@ -68,7 +65,6 @@ const parenMatch = `\\s*\\(?\\s*(?:'|"|\\[\\[)+(.+?)(:?'|"|\\]\\])[\\s\\)]?` // 
 const importDir = new RegExp( config.keywordDirectory + parenMatch, 'g' )
 const importMulti = new RegExp( config.keywordMulti + parenMatch, 'g' )
 const importSingle = new RegExp( config.keywordSingle + parenMatch, 'g' )
-const exportTimestamp = RegExp( config.keywordExportTimestamp + parenMatch, 'g' )
 
 // indentation stuff 
 let singleTab = ' '.repeat( config.tabLength )
