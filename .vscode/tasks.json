@@ -5,25 +5,25 @@
             "label": "bun_build",
             "type": "shell",
             "windows": {
-                "command": "bun \"./scripts/packer.js\""
+                "command": "bun \"./scripts/RedlinePack.js\""
             },
             "linux": {
-                "command": "bun \"./scripts/packer.js\""
+                "command": "bun \"./scripts/RedlinePack.js\""
             },
             "problemMatcher": [],
             "group": {
                 "kind": "build",
-                "isDefault": false
+                "isDefault": false // If you are tired of having to select one, set one to default.
             }
         },
         {
             "label": "node_build",
             "type": "shell",
             "windows": {
-                "command": "node \"./scripts/packer.js\""
+                "command": "node \"./scripts/RedlinePack.js\""
             },
             "linux": {
-                "command": "node \"./scripts/packer.js\""
+                "command": "node \"./scripts/RedlinePack.js\""
             },
             "problemMatcher": [],
             "group": {
